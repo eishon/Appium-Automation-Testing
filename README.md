@@ -13,6 +13,12 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## Sample Session Script
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    {
+        "deviceName": "7b508058",
+        "platformName": "android",
+        "appPackage": "com.remo_shot.remoshot_demo",
+        "appActivity": ".MainActivity",
+        "noReset": true
+    }
