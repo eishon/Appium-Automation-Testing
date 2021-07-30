@@ -16,9 +16,9 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Sample Session Script
 
     {
-        "deviceName": "7b508058",
+        "deviceName": "device_name",
         "platformName": "android",
-        "appPackage": "com.remo_shot.remoshot_demo",
-        "appActivity": ".MainActivity",
+        "appPackage": "build_identifier",
+        "appActivity": "launcher_activity",
         "noReset": true
     }
