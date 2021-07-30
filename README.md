@@ -14,6 +14,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Sample Session Script
+### Android
 
     {
         "deviceName": "device_name",
@@ -21,4 +22,15 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
         "appPackage": "build_identifier",
         "appActivity": "launcher_activity",
         "noReset": true
+    }
+
+### iOS
+
+    {
+        "deviceName": "device_name/udid",
+        "platformName": "iOS",
+        "platformVersion": "iOS",
+        "app": "location of the .app file",
+        "noReset": true,
+        "automationName": "XCUITest" ,
     }
